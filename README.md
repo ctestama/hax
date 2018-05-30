@@ -32,10 +32,6 @@ Answer any questions bearing in mind that hax currently is written against
 webcomponentsjs 0.7.x and polymer 1.11.x as of this writing. You will have the
 dependencies needed.
 
-## Gather dependencies
-
-Download the REST UI module: https://www.drupal.org/project/restui
-
 ## Usage
 
 This should give you the dependencies you need to get going.
@@ -43,7 +39,9 @@ This should give you the dependencies you need to get going.
 2. Go to the permissions page to ensure users have the 'use hax' permission
    checked. Once this is checked then people will start to see a 'HAX Authoring'
    local menu item / tab / contextual option show up when they have access to
-   edit a node.
+   edit a node. If you want users to be able to upload files, grant the
+   'Upload files via HAX editor' permission.
+
 NOTE on Text Formats: HAX is designed to work with nodes with bodies in the
 default Full HTML format where "Limit allowed HTML tags and correct faulty HTML"
 is unchecked, or with formats with similarly permissive settings. For this
